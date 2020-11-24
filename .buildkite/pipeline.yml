@@ -1,3 +1,4 @@
 steps:
-  - label: "Example Test"
-    command: echo "Hello!"
+  - label: "Maven package"
+    command: mvn package
+    artifact_paths: "target/*.jar"
